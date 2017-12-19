@@ -1,0 +1,20 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd">
+    <Page.actionBar>
+            <ActionBar title="test">
+                <StackLayout orientation="horizontal"
+                    ios:horizontalAlignment="center"
+                    android:horizontalAlignment="left">
+                    <Image src="res://nativescript_logo" class="action-image"></Image>
+                    <Label text="ativeScript"  class="action-label"></Label>
+                </StackLayout>
+            </ActionBar>
+    </Page.actionBar>
+    <StackLayout>
+        <Label [text]="carLocker.message"></Label>    
+        <WrapLayout orientation="horizontal">            
+            <Switch [checked]="carLocker.isLockedObs.get('isLocked')" (checkedChange)="carLockUnlock($event)"></Switch>
+            <Label [text]="carLocker.message"></Label>    
+        </WrapLayout>
+        <Label [text]="carLocker.message"></Label>    
+    </StackLayout>
+</Page>
