@@ -20,3 +20,6 @@ Bonuses:
 * Security finetuning
 * Sign Up for remot3.it account
 * Boothoth connectivity for offline menagement
+* Notification that the car has been unlocked/started
+* Camera for dashcam support
+* Download/preview/delete of dashcam videos
