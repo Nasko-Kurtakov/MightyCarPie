@@ -22,5 +22,5 @@ Bonuses:
 * Sign Up for remot3.it account
 * Bluetooth connectivity for offline menagement
 * Notification that the car has been unlocked/started
-* Camera for dashcam support
-* Download/preview/delete of dashcam videos
+* Integrate camera on the raspberry for dashcam shooting 
+* Download/preview/delete of dashcam videos through the phone app
