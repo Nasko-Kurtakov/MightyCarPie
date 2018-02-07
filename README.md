@@ -1,5 +1,6 @@
 # MightyCarPie
-### A IoT project targeted at unlocking and starting your car through your phone only using internet
+### A IoT project targeted at unlocking and starting your car through your phone only using internet and Raspberry Pi
+#### (without depending on home network and port forwarding)
 
 The project includes:
  #### NativeScript app to be used by the client
